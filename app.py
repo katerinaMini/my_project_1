@@ -19,10 +19,10 @@ uploaded_file = None
 if 'df_input' not in st.session_state:
     st.session_state['df_input'] = pd.DataFrame()
 
-model_file_path = 'models\lr_model_churn_prediction.sav'
+model_file_path = 'models/lr_model_churn_prediction.sav'
 model = pickle.load(open(model_file_path, 'rb'))
 
-encoding_model_file_path = 'models\encoding_model2.sav'
+encoding_model_file_path = 'models/encoding_model2.sav'
 encoding_model = pickle.load(open(encoding_model_file_path, 'rb'))
 
 
