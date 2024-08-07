@@ -2,3 +2,4 @@ streamlit
 scikit-learn==1.2.2
 matplotlib
 seaborn
+numpy==1.23.5
